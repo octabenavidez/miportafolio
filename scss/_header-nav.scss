@@ -1,0 +1,20 @@
+header{
+    h1{
+        font-family: $fuente-principal;
+        color: $oscuro;
+    }
+}
+
+.div-nav{
+    background-color: $naranja;
+    nav{
+        a{
+            color: $blanco;
+            font-family: $fuente-principal;
+            &:hover{
+                color: $oscuro;
+                background-color: $naranja-clarito;
+            }
+        }
+    }
+}

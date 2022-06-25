@@ -1,0 +1,62 @@
+// Variables a utilizar
+@import "variables"; 
+
+// Globales
+body {
+    background-image: linear-gradient(to top, $grisclaro 0%, $blanco 100%);
+}
+
+span{
+    content: "Freelancer";
+    font-size: 1.7rem;
+    color: $naranja-clarito;
+    font-weight: 700;
+}
+
+.sombra {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+}
+
+.contenedor{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+// Seccion Header y Nav
+@import "header-nav";
+
+// Seccion Hero o portada
+@import "hero";
+
+// Seccion Servicios-Contacto
+@import "main";
+
+// Footer
+@import "footer";
+
+// Seccion sobre mi
+@import "sobremi";
+
+
+@media (max-width: 480px){
+    div{
+        nav{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    .hero{
+        a{
+            font-size: 25px !important;
+        }
+    }
+    #sobremi{
+        .w-75{
+            width: 100% !important;
+        }
+    }
+}

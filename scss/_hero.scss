@@ -1,0 +1,27 @@
+.hero{
+    height: 450px;
+    background-image: url(../img/dased.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: $fuente-principal;
+    .contenido-hero{
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, .7);
+        h2{
+            color: $blanco;     
+        }
+        p{
+    
+            color: $blanco;
+        }
+    }
+    a{
+        color: $blanco;
+        background-color: $naranja;
+        opacity: 0.9;
+        &:hover{
+            color: $grisclaro;
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+main{
+    font-family: $fuente-principal;
+    h2{
+        color: $oscuro;
+        font-size: 2rem;
+    }
+    div{
+        section{
+            h3{
+                color: $violeta;
+            }
+            .iconos{
+                height: 10rem;
+                width: 10rem;
+                background-color: $naranja-clarito;
+                border-radius: 50%;
+            }
+        }
+    }
+}
