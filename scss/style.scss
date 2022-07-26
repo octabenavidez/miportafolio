@@ -41,6 +41,9 @@ span{
 // Seccion sobre mi
 @import "sobremi";
 
+// Seccion proyectos
+@import "proyectos";
+
 
 @media (max-width: 480px){
     div{
@@ -54,9 +57,16 @@ span{
             font-size: 25px !important;
         }
     }
-    #sobremi{
+    #experiencia{
         .w-75{
             width: 100% !important;
         }
     }
+    #cualidades{
+        div{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 }
+

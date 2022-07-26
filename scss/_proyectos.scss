@@ -1,0 +1,25 @@
+#clientes{
+    background-image: url(../img/vimal-s-MV37Sp4gdxo-unsplash.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    h1{
+        color: $blanco;
+    }
+}
+
+#proyectos{
+    div{
+        img{
+            opacity: .8;
+            &:hover{
+                opacity: 1;
+            }
+        }
+        a{
+            color: $naranja;
+            &:hover{
+                color: $rosa;
+            }
+        }
+    }
+}
